@@ -1,0 +1,16 @@
+d = linspace(-2*pi, 2*pi,10);
+
+f = sin(d);
+
+a = vander(d);
+
+c = inv(a)*f';
+
+s = sin(linspace(-2*pi, 2*pi,100));
+
+p = polyval(c,linspace(-2*pi, 2*pi,100));
+
+plot(s, 'r')
+hold
+plot(p, 'b--')
+hold
