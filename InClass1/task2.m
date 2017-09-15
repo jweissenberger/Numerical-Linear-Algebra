@@ -16,4 +16,7 @@ plot(x, s, 'r')
 hold on
 plot(x, p, 'b--')
 plot(d, f, 'go')
+xlabel('-4\pi < x < 4\pi')
+ylabel('f(x)')
+legend('Exact Function','Interpolated Function', 'Data Points')
 hold off
