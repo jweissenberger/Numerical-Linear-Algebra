@@ -5,7 +5,7 @@
 % appropriate elipse
 
 A = [1 2;
-    -0 2];
+    0 2];
 
 [U, S, V] = svd (A);
 S = diag(S);
