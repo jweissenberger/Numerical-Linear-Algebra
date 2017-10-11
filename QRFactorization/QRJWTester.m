@@ -2,9 +2,13 @@
 
 %Parameters
 
-n = 100;
-A = rand(n,n);
+Z = [1 2 3;
+    4 5 6;
+    7 8 7;
+    4 2 3;
+    4 2 2;];
 
-[Q,R] = QRJW(A);
+[Q,R] = QRJW(Z);
 
-norm(Q*R-A) % this should output 0
+norm(Q*R-Z); % this should output 0
+

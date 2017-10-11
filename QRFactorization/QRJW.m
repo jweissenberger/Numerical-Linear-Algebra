@@ -1,11 +1,12 @@
 function [ Q, R ] = QRJW( A )
 %QRJW, This computes the QR factroization of a nxn matrix A
-%   Inputs, A(nxn)
+%   Inputs: A(nxn)
+%   Outputs: Q, R
 
 %% Extracting information from A and allocating space for matricies
 
-[~, n] = size(A);
-Q = zeros(n,n);
+[m, n] = size(A);
+Q = zeros(m,n);
 R = zeros(n,n);
 
 %% Main Loop
