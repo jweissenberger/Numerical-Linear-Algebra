@@ -1,5 +1,5 @@
 function [ W, R ] = houseHolder( A )
-%Computes the QR of a matrix A, using the householder algorithm
+%Computes the QR factorization of a matrix A, using the householder algorithm
 %   Inputs: A
 %   Outputs: W, R
 

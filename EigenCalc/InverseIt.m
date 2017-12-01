@@ -1,6 +1,5 @@
 function [ V ] = InverseIt( A, lambda )
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%Outputs the eigen vectors for a Hessenberg matrix given its eigen values
 
 tol=10^(-4);
 

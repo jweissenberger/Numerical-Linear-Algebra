@@ -1,5 +1,5 @@
 function [ E ] = Lambda( H )
-%UNTITLED2 Summary of this function goes here
+%Lambda: outputs a vector containing the eignen values for a matrix
 %   takes in a Hessenberg matrix and applies the QR algorithm until it 
 %   converges. The output of this function will be a vector containing the 
 %   eigenvalues of A. Can use Matlab’s built in command qr for this algorithm
